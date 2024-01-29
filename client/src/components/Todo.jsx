@@ -30,7 +30,7 @@ const Todo = ({ todo }) => {
             }}
             data-testid="todo-test"
         >
-            <span style={{ display: editing ? 'none' : '' }}>{todo?.data}</span>
+            <span style={{ display: editing ? 'none' : '' }}>{todo.data}</span>
 
             <form
                 style={{ display: editing ? 'inline' : 'none' }}
